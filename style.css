@@ -593,6 +593,10 @@ section{
         --h2-font: 2rem;
         --p-font: 15px;
     }
+
+    .hero{
+        width: 112%;
+    }
     .cta-content h2{
         font-size: 2.8rem;
     }
@@ -612,5 +616,12 @@ section{
 
     .banner-content{
         grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    }
+
+    .seller-content{
+        padding-left: 45px;
+    }
+    .cta{
+        width: 112%;
     }
 }
